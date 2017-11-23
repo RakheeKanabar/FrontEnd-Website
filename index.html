@@ -1,48 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewpoint" content="width=device-width, intial-scale=1"/>
-<title>Cars4u</title>
+
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 
 </head>
 <body>
 
-<h1> Cars4u </h1>
-<nav>
-<ul>
-<li><a href="">Home</a></li>
-<li><a href="">Car</a></li>
-<li><a href="">Contact Us</a></li>
-<li><a href="">Find Us</a></li>
-<li><a href="">Unclear</a></li>
-</ul>
-</nav>
+<img id="logo" src="img\Logo.png"/>
+<header>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="html/room.html">Rooms</a>
+  <a href="html/factilites.html">Factlities</a>
+  <a href="html/contactus.html">Contact Us</a>
+   <a href="html/aboutus.html">About Us</a>
+  <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</header>
+<section>
+
+
+
+<div class="sildeshow">
+ 
+  <img class="slides" src="img\fronthotel.jpg" alt="first">
+  <img class="slides" src="img\lobby.jpg" >
+  <img class="slides" src="img\TCOI_Hotel_TopImage_1920x1000_low.jpg">
+  <img class="slides" src="img\swimmingpool.jpg" >
+  
+  <p>welcome</p>
+</div>
+
+</section>
+ <figure>
+      <img class="figure img" src="img\room3.jpg" alt"placeholder"/>
+      <figcaption>
+        Our luxurious rooms contain many factilites such as Room Service, HDTV with Freeview, Jacuzzi and Fridge. 
+      </figcaption>
+    </figure>
+	
+	 <figure>
+      <img class="figure img1" src="img\swimming1.jpg" alt"placeholder"/>
+      <figcaption>
+        Our luxurious rooms contain many factilites such as Room Service, HDTV with Freeview, Jacuzzi and Fridge. 
+      </figcaption>
+    </figure>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<footer>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</footer>
 
 </body>
 </html>

@@ -1,37 +1,206 @@
 body{
-	background-color: #32255s;
+	background: white;
 	margin:0;
 	padding:0;
+	width:80%;
+	height:100%;
+	margin-left:15%;
+margin-right:15%;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 100px;
-	margin-right:-100px;
-    padding: 5;
-    overflow: hidden;
-    background-color: #333;
-	position:fixed;
+#myTopnav{
+	margin: 100px auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+   margin-bottom:30px;
 }
 
-li {
-    float: left;
+.topnav a {
+  float: left;
+  color: #8d9cb5;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 17px;
+ 
+
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+/*.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}*/
 
-li a:hover {
-    background-color: #111;
+
+
+.topnav .icon {
+  display: none;
+}
+section {
+	text-align:center;
 }
 h1{
 	position:absolute;
-	padding: 10px 1px;
+	padding: -10px 8px;
 	text-align: center;
+	margin-top:-50px;
+	margin-left:560px;
+	margin-bottom: 50px;
+	
 }
+header {
+	height: 100px;
+	display: block;
+}
+img{
+	width:50%;
+	height:50%;
+	text-align:center;
+	margin-left:15%;
+	margin-right:50%;
+}
+p{
+	text-align:center;
+	font-size: 2.5em;
+	margin-top:10px;
+}
+#logo{
+	width:10%;
+	height:10%;
+	margin-top:30px;
+	margin-left:50px;
+	
+}
+figure {
+  width: 300px;
+ 
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 50%;
+  background: #eee;
+  margin-bottom: -4em;
+ 
+}
+
+
+/* 
+  styles the figcaption element when the page first loads. The 
+  `transition` property simply "prepares" the element for a style 
+  transition - it does NOT trigger the transition.
+  `opacity` affects the WHOLE element - at `.78` text less is harsh when
+  visible. If the alpha channel of the rgba `background` transitioned 
+  instead, the text would not be affected and remain 100% black.
+  A `height` of `4em` and `padding` of `.25em` will fit 3 lines of text 
+  with a line-height of 1.2em nicely. For more, change the values.
+*/
+figcaption {
+  box-sizing: border-box;
+  height: 7em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
+/* 
+  These styles are applied to the `figcaption` element when hovering 
+  over the`figure` element. The `transition` property on `figcaption` 
+  above is then applied to `all` these hover styles, over 0.5 seconds.
+*/
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
+
+@media screen and (max-width: 480px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right:0;
+    top: -10px;
+  }
+  .topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+	padding: 1px 10px;
+
+	
+  }
+ img{
+margin: 0 20px 0 1px;
+width:100%;
+}
+h1{
+	margin: 0 20px 0 30px;
+	margin-top: -50px;
+}
+
+p{
+	text-align:center;
+	font-size: 2.5em;
+	margin-top:10px;
+}
+#logo{
+	width:45%;
+	height:10%;
+	margin-top:50px;
+	
+	margin-left:50px;
+	
+}
+figure {
+  width: 250px;
+ margin-left:-37px;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 50%;
+  background: #eee;
+  margin-bottom: -4em;
+ 
+}
+figcaption {
+  box-sizing: border-box;
+  height: 7em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
+
+
+
+
+
+}
+
+
+
+
