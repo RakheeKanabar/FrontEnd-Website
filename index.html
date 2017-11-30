@@ -3,30 +3,37 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
 <img id="title" src="img\title.png"/>
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="aboutme.html">About Me</a>
-  <a href="html/factilites.html">Blog</a>
-  <a href="html/contactus.html">Contact Me</a>
+<ul class="topnav" id="myTopnav">
 
-  <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
 
 
 <h1>Welcome To My Blog...</h1>
 
-<img class="me" src="img/me.jpg" /><a href="#" class="button">View Blog</a>
+<div id="imglink">
+
+<img class="meimage" src="img/me.jpg" /><a href="blog.html" class="button">View Blog</a>
+
+<div>
 
 <h2> What did I do today? </h2>
-<h3> My Hobbies </h3>
+
 <div class="square">Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…
 </div>
+<h3> My Hobbies </h3>
 <div class="square2">   Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…
 </div>
 
@@ -62,6 +69,7 @@ function myFunction() {
     }
 }
 </script>
+
 
 <footer>
 
