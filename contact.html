@@ -12,7 +12,7 @@
 <div class="header">
 <ul class="topnav" id="myTopnav">
 
- <li><a class="active" href="index.html">Home</a></li>
+   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="aboutme.html">About Me</a></li>
   <li><a href="blog.html">Blog</a></li>
   <li><a href="contact.html">Contact</a></li>
@@ -22,45 +22,24 @@
 </ul>
 </div>
 <div id="main">
+<h2 >Responsive Form</h2>
+   <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Name">
+</br>
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email" placeholder="Email">
+</br>
+    <label for="country">Phone</label>
+    <input type="text" id="lname" name="phone" placeholder="Phone">
+</br>
+    <label for="subject">Text</label>
+	</br>
+    <textarea id="subject" name="subject" placeholder="Your Text" style="height:200px"></textarea>
+</br>
+    <input type="submit" value="Send">
+  </form>
 
-<h1>Welcome To My Blog...</h1>
-
-<div id="imglink">
-
-<img class="meimage" src="img/me.jpg" /><a href="blog.html" class="button">View Blog</a>
-
-<div>
-
-  <div class="column" style="background-color:#aaa;">
-  <h2> What did I do today? </h2>
-  Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…</div>
-  <div class="column" style="background-color:#bbb;">
-  <h2> My Hobbies </h2>
-  Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…
-    <img class="football" src="img/Football.jpg">
-  </div>
-  <div class="column" style="background-color:#ccc;">
-  <h2>My University </h2>
-  <iframe width="30%" height="50%" src="https://www.youtube.com/embed/k47BV2wpB0Y" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
-}
-</script>
 
 
 <script>
@@ -78,7 +57,7 @@ function myFunction() {
 <footer>
 
 <div class="footer-social-icons">
-    <!-- <h4 class="_14">Follow us on</h4> -->
+    <!-- <h4>Follow me on</h4> -->
     <ul class="social-icons">
         <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>

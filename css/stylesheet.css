@@ -137,7 +137,8 @@ color: white;
 }
 .football{
 	
-	width:40%;
+	width:30%;
+	height:40%;
 	
 }
 .footer-social-icons {
@@ -210,7 +211,29 @@ ul.social-icons {
 	width:70%;
 	margin-left:-10%;
 }
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
+input[type=submit] {
+    background-color: #1E90FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #228B22;
+}
 
 
 
@@ -287,36 +310,6 @@ height:100px;
 		height:20%;
 		margin-left:-2%;
 	}
-.square{
-
-    padding: 10px 10px;
-    color: black;
-    margin: auto;
-	width:100%;
-	height:90%;
-	float:left;
-	margin-left:-2%;
-
-}
-.square2{
-
-    padding: 10px 10px;
-    color: black;
-    margin: auto;
-	width:90%;
-	height:150%;
-	float:left;
-
-	}
-.square3{
-	padding: 10px 10px;
-    color: black;
-    margin: auto;
-	width:90%;
-	height:150%;
-	float:left;
-	
-}
 
 h1{
 	color:black;
@@ -415,6 +408,25 @@ ul.social-icons {
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #1E90FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
