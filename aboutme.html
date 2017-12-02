@@ -3,34 +3,40 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <img id="title" src="img\title.png"/>
+<div class="header">
+<ul class="topnav" id="myTopnav">
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="aboutme.html">About Me</a>
-  <a href="html/factilites.html">Blog</a>
-  <a href="html/contactus.html">Contact Me</a>
-
-  <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+   <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="aboutme.html">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
 </div>
-
-
+<div id="main">
 <h1>About me</h1>
 
+<div class="row">
+  <div class="column1" style="background-color:#aaa;">
+  <h2>What I Study… </h2>
+  Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…
+  
+  </div>
 
-<h2> What I study</h2>
-
-<div class="square4">Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…
 </div>
-
-<img id="imgcomputer" src="img/computer.jpg"/>
-
-<h4 class="achieved">What I Have Achieved... </h4>
-<div class="square5">Talk about your age, how your day went, 
+  
+  
+  <div class="column" style="background-color:#ccc;">
+  <h2>What I Achieved… </h2>
+  </div>
 </div>
 
 <script>
@@ -62,17 +68,20 @@ function myFunction() {
 }
 </script>
 
+
 <footer>
 
-<img src="img/facebook.png" />
-<img src="img/insta.jpg"/>
-<img src="img/Twitter.png"/>
+<div class="footer-social-icons">
+    <!-- <h4 class="_14">Follow us on</h4> -->
+    <ul class="social-icons">
+        <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
 
-
-
-
+    </ul>
+</div>
 
 </footer>
-
+</div>
 </body>
 </html>
