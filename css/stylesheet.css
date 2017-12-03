@@ -1,3 +1,6 @@
+
+
+/*on every page*/
 body{
 	background: #C0C0C0;
 	margin:0;
@@ -48,125 +51,42 @@ ul.topnav li.icon {display: none;}
 	margin-left:20px;
 	
 }
+h1,h2,h3,h4{
+		font-family:Comic Sans MS;
+		color: white;
+}
 h1{
-	font-family:Comic Sans MS;
 	font-size:20px;
 	margin-top:10px;
-color: white;
-	
 }
-.column {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 10px;
-    height: 200px;	/* Should be removed. Only for demonstration */
-	width:70%;
-	margin-left:-10%;
-}
-
 h2{
-	font-family:Comic Sans MS;
 	font-size:16px;
 	margin-top:25px;
-color: white;
 }
 h3{
-	font-family:Comic Sans MS;
 	font-size:16px;
 	margin-top:-10px;
-	margin-left:30%;
-color: white;
-	
-}
-
-#dmu{
-	width:100%;
-	height:100px;
+	margin-left:30%;	
 }
 h4{
-	font-family:Comic Sans MS;
 	font-size:16px;
 	margin-top:5px;
 	margin-left:30%;
-color: white;
 }
 
- img{
-	margin-bottom:50px;
-	width:50px;
-	height:50px;
-	
-}
-
-.meimage{
-	width:50%;
-	height:300px;
-	margin-top:-10px;
-}
-.me a:link,
-.me a:visited{
-	
-}
-.button {
-
-	margin-left:-10%;
-	margin-top:250px;
-	border-style: solid;
-	border-color:grey;
-	position:absolute;
-	color:white;
-
-}
-
-#imgcomputer{
-
-  height: 150px;
-  width: 20%;
-
-  margin-top:-22%;
-  margin-left:30%;
-color: white;
-}
-
-
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
+footer {
+    background-color: #898181;
+    padding: auto;
     text-align: center;
-	float:left;
-}
-.mySlides {
-	display:none;
-	width:110%;
-	height:220px;
-	margin-top:-110%;
-	margin-left:10%;
-	
-	}
-.demo {
-	cursor:pointer;
-	width:10%;
-	height:20%;
-	float:left;
-margin-top:-5%;
-	
-	}
-.w3-content{
-	margin-top:-10%;
-	margin-left:35%;
-
-}
-.football{
-	
-	width:30%;
-	height:40%;
-	
+	margin-left:-10%;
+	width:72%;
+	height:100px;
 }
 .footer-social-icons {
     width: 350px;
     display:block;
     margin: 0 auto;
+	margin-left:35%;
 }
 .social-icon {
     color: #fff;
@@ -220,6 +140,68 @@ ul.social-icons {
 .fa-linkedin:hover {
     background-color: #0073a4;
 }
+
+/*this code is for index page*/
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 200px;	/* Should be removed. Only for demonstration */
+	width:70%;
+	margin-left:-10%;
+}
+
+.meimage{
+	width:50%;
+	height:300px;
+	margin-top:-10px;
+}
+.me a:link,
+.me a:visited{
+	
+}
+.button {
+
+	margin-left:-10%;
+	margin-top:250px;
+	border-style: solid;
+	border-color:grey;
+	position:absolute;
+	color:white;
+
+}
+.football{
+	
+	width:30%;
+	height:40%;
+	
+}
+
+/*aboutme page css code*/
+
+.mySlides {
+	display:none;
+	width:110%;
+	height:220px;
+	margin-top:-110%;
+	margin-left:10%;
+	
+	}
+.demo {
+	cursor:pointer;
+	width:10%;
+	height:20%;
+	float:left;
+margin-top:0.5%;
+	
+	}
+.bigimage{
+	margin-top:-10%;
+	margin-left:35%;
+
+}
 .row {
     display: -webkit-flex;
     display: flex;
@@ -243,6 +225,9 @@ ul.social-icons {
 	margin-left:-10%;
 	margin-top:7%;
 }
+
+/*this css code is for contact page*/
+
 input[type=text], select, textarea {
     width: 50%;
     padding: 12px;
@@ -293,13 +278,12 @@ input[type=submit]:hover {
 	  padding:0px;
     }
     .column1 {
-      -webkit-flex-direction: column;
+       -webkit-flex-direction: column;
       flex-direction: column;
 	  width:90%;
-	  height:100px;
-	  margin-bottom:150%;
-	  margin-left:8%;
+	  margin-left:-50%;
 	  padding:0px;
+	    margin-top:50%;
     }
 	 .row {
       -webkit-flex-direction: column;
@@ -308,7 +292,30 @@ width:50%;
 height:100px;
 	
     }
+	.column2 {
+   -webkit-flex-direction: column;
+      flex-direction: column;
+	  width:90%;
+	  margin-left:8%;
+	  margin-top:45%;
+	  padding:0px;
+}
+	.mySlides {
+	display:none;
+	width:70%;
+	height:100px;
+	margin-top:-10%;
+	margin-left:30%;
 	
+	}
+.demo {
+	cursor:pointer;
+	width:10%;
+	height:20%;
+	margin-left:1%;
+margin-top:10%;
+	
+	}
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -468,19 +475,6 @@ input[type=submit] {
 
 
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
 
 
 
