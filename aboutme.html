@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -32,30 +33,66 @@
   </div>
 
 </div>
-  
-  
-  <div class="column" style="background-color:#ccc;">
-  <h2>What I Achieved… </h2>
-  </div>
+
+<div class="w3-content" style="max-width:200px">
+  <img class="mySlides" src="img/coding.jpg" >
+  <img class="mySlides" src="img/code.jpg" >
+  <img class="mySlides" src="img/computer.jpg">
+</div>
+<div id="row">
+  <div class="w3-row-padding w3-section">
+    <!-- <div class="w3-col s4"> -->
+      <img class="demo " src="img/coding.jpg" onclick="currentDiv(1)">
+    </div>
+    <!-- <div class="w3-col s4"> -->
+      <img class="demo " src="img/code.jpg"  onclick="currentDiv(2)">
+    
+    <!-- <div class="w3-col s4"> -->
+      <img class="demo " src="img/computer.jpg"  onclick="currentDiv(3)">
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
+
+
+  <div class="column2" style="background-color:#ccc;">
+  <h2>hey </h2>
+  ausdhaidjadandaisdadnadiaddaj jdjadiajdj
+  </div>
+  
+  
+  
+  
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
 }
 </script>
-
 
 <script>
 function myFunction() {
@@ -80,8 +117,7 @@ function myFunction() {
 
     </ul>
 </div>
-
+  </div>
 </footer>
-</div>
 </body>
 </html>

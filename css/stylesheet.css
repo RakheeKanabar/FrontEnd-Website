@@ -134,6 +134,28 @@ color: white;
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
+	float:left;
+}
+.mySlides {
+	display:none;
+	width:110%;
+	height:220px;
+	margin-top:-110%;
+	margin-left:10%;
+	
+	}
+.demo {
+	cursor:pointer;
+	width:10%;
+	height:20%;
+	float:left;
+margin-top:-5%;
+	
+	}
+.w3-content{
+	margin-top:-10%;
+	margin-left:35%;
+
 }
 .football{
 	
@@ -210,6 +232,16 @@ ul.social-icons {
     height: 200px;	/* Should be removed. Only for demonstration */
 	width:70%;
 	margin-left:-10%;
+}
+.column2 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 200px;	/* Should be removed. Only for demonstration */
+	width:70%;
+	margin-left:-10%;
+	margin-top:7%;
 }
 input[type=text], select, textarea {
     width: 50%;
