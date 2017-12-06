@@ -2,7 +2,7 @@
 
 /*on every page*/
 body{
-	background: #C0C0C0;
+	background: white;
 	margin:0;
 	padding:0;
 	margin-left:30%;
@@ -21,7 +21,7 @@ ul.topnav {
  
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #2272b7;
   margin-left:-10%;
   margin-right:40%;
   margin-top:10%;
@@ -75,12 +75,12 @@ h4{
 }
 
 footer {
-    background-color: #898181;
+    background-color: #2272b7;
     padding: auto;
     text-align: center;
 	margin-left:-10%;
 	width:72%;
-	height:100px;
+	height:50px;
 }
 .footer-social-icons {
     width: 350px;
@@ -154,9 +154,10 @@ ul.social-icons {
 }
 
 .meimage{
-	width:50%;
-	height:300px;
-	margin-top:-10px;
+	width:45%;
+	height:400px;
+	margin-top:-55px;
+	margin-left:3%;
 }
 .me a:link,
 .me a:visited{
@@ -226,6 +227,35 @@ margin-top:0.5%;
 	margin-top:7%;
 }
 
+/*this is blog page*/
+.pdfDoc ul{
+
+list-style-type: none;
+margin-left:-10%;
+
+}
+.pdfDoc ul li{
+
+float:left;
+margin:1%;
+}
+.pdfDoc ul li a{
+
+display:block;
+text-align: center;
+text-decoration: none;
+
+}
+.pdfDoc img{
+
+width:10%;
+height:20%;
+}
+
+
+
+
+
 /*this css code is for contact page*/
 
 input[type=text], select, textarea {
@@ -254,7 +284,7 @@ input[type=submit]:hover {
 
 
 
-
+/*this is the mobile responsive*/
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
