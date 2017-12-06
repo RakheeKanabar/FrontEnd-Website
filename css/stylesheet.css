@@ -8,7 +8,6 @@ body{
 	margin-left:30%;
 	height:70%;
 	width:70%;
-border-color:
 
 }
 main {width:100%;
@@ -24,7 +23,7 @@ ul.topnav {
   background-color: #2272b7;
   margin-left:-10%;
   margin-right:40%;
-  margin-top:10%;
+  margin-top:0%;
 }
 
 ul.topnav li {float: left;}
@@ -45,10 +44,10 @@ ul.topnav li.icon {display: none;}
 
 
 #title{
-	width:50%;
+	width:10%;
 	height:10%;
-	margin-top:30px;
-	margin-left:20px;
+	margin-top:10px;
+	margin-left:20%;
 	
 }
 h1,h2,h3,h4{
@@ -154,8 +153,8 @@ ul.social-icons {
 }
 
 .meimage{
-	width:45%;
-	height:400px;
+	width:20%;
+	height:100px;
 	margin-top:-55px;
 	margin-left:3%;
 }
