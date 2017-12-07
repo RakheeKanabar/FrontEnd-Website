@@ -26,51 +26,29 @@
 
 <div class="pdfDoc">
 <ul>
-<img src="img/pdf-logo-3D.jpg"></a><a href="../pdf/PaperBasedDesign.pdf">MVC Report</a>
+<img src="img/pdf-logo-3D.jpg"><span id="mvc"href="">MVC search</span> <a href="../pdf/PaperBasedDesign.pdf">MVC Report</a>
 
-<img src="img/pdf-logo-3D.jpg"></a><a href="../pdf/PaperWebDesign.pdf">website Report</a>
+<img src="img/pdf-logo-3D.jpg"><span id="website"href="">Website</span><a id="website" href="../pdf/PaperWebDesign.pdf">website Report</a>
 
-<img src="img/pdf-logo-3D.jpg"></a><a href="../pdf/OriginalPhotos.pdf">Original Photos</a>
+<img src="img/pdf-logo-3D.jpg"><a id=" phonesystem" href="../pdf/OriginalPhotos.pdf">Original Photos</a>
 
-<img src="img/pdf-logo-3D.jpg"></a><a href="../pdf/EditedPhotos.pdf">Edited Photos</a>
+<img src="img/pdf-logo-3D.jpg"><a id="" href="../pdf/EditedPhotos.pdf">Edited Photos</a>
 <br>
 
 
 </ul>
 </div>
 
+<form id="searchForm">
+    <label for="wikiQuery">Search Wikipedia for: </label>
+    <input id="wikiQuery" type="text" placeholder="">
+    <input type="submit">
+  </form>
 
+  <ul id="demo"></ul>
 
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
-}
-</script>
-
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
 
 
 <footer>
@@ -89,5 +67,7 @@ function myFunction() {
 
 </footer>
 </div>
+<script src="js/javascript.js"> </script> 
+<script src="js/apis.js"> </script> 
 </body>
 </html>
