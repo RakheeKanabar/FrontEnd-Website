@@ -5,7 +5,6 @@
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
 
@@ -14,8 +13,8 @@
 <ul class="topnav" id="myTopnav">
 
  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="aboutme.html">About Me</a></li>
-  <li><a href="blog.html">Blog</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="project.html">Project</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li class="icon">
     <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
@@ -23,42 +22,32 @@
 </ul>
 </div>
 <div id="main">
-<h1>About me</h1>
+<h1>Project That I have done</h1>
 
-<div class="row">
-  <div class="column1" style="background-color:#aaa;">
-  <h2>What I Study… </h2>
-  Talk about your age, how your day went, what you worked on today, what lessons you had today, how they went…
-  
-  </div>
+<div class="pdfDoc">
+<ul>
+<img src="img/pdf-logo-3D.jpg"><span id="mvc"href="">MVC search</span> <a href="../pdf/PaperBasedDesign.pdf">MVC Report</a>
 
+<img src="img/pdf-logo-3D.jpg"><span id="website"href="">Website</span><a id="website" href="../pdf/PaperWebDesign.pdf">website Report</a>
+
+<img src="img/pdf-logo-3D.jpg"><a id=" phonesystem" href="../pdf/OriginalPhotos.pdf">Original Photos</a>
+
+<img src="img/pdf-logo-3D.jpg"><a id="" href="../pdf/EditedPhotos.pdf">Edited Photos</a>
+<br>
+
+
+</ul>
 </div>
 
-<div class="bigimage" style="max-width:200px">
-  <img class="mySlides" src="img/coding.jpg" >
-  <img class="mySlides" src="img/code.jpg" >
-  <img class="mySlides" src="img/computer.jpg">
+<form id="searchForm">
+    <label for="wikiQuery">Search Code Definitions: </label>
+    <input id="wikiQuery" type="text" placeholder="">
+    <input type="submit">
+  </form>
+
+  <ul id="demo"></ul>
+
 </div>
-<div id="row">
- 
-      <img class="demo " src="img/coding.jpg" onclick="currentDiv(1)">
-      <img class="demo " src="img/code.jpg"  onclick="currentDiv(2)">
-      <img class="demo " src="img/computer.jpg"  onclick="currentDiv(3)">
-</div>
-
-
-
-
-  <div class="column2" style="background-color:#ccc;">
-  <h2>hey </h2>
-  ausdhaidjadandaisdadnadiaddaj jdjadiajdj
-  </div>
-  
-  
-  
-  
-
-
 
 
 
@@ -67,14 +56,18 @@
 <div class="footer-social-icons">
     <!-- <h4 class="_14">Follow us on</h4> -->
     <ul class="social-icons">
+	 &#9400;Created by Rakhee Kanabar 
         <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-
+ 
     </ul>
+	 
 </div>
-  </div>
+
 </footer>
+</div>
 <script src="js/javascript.js"> </script> 
+<script src="js/apis.js"> </script> 
 </body>
 </html>
