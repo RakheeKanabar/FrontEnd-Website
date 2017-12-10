@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+<title>Raks Blog</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<img id="title" src="img\title.png"/>
+<a href="index.html"><img id="title" src="img\title.png"alt="logo"/></a>
 <div class="header">
 <ul class="topnav" id="myTopnav">
 
@@ -22,7 +23,8 @@
 </ul>
 </div>
 <div id="main">
-<h2 >Responsive Form</h2>
+
+<h2><i class="fa fa-address-book" aria-hidden="true"></i>Contact Me on</h2>
    <form action="/action_page.php">
     <label for="fname">Name</label>
     <input type="text" id="fname" name="name" placeholder="Name">
@@ -30,49 +32,52 @@
     <label for="lname">Email</label>
     <input type="text" id="lname" name="email" placeholder="Email">
 </br>
-    <label for="country">Phone</label>
-    <input type="text" id="lname" name="phone" placeholder="Phone">
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Phone">
 </br>
     <label for="subject">Text</label>
 	</br>
     <textarea id="subject" name="subject" placeholder="Your Text" style="height:200px"></textarea>
 </br>
-    <input type="submit" value="Send">
+   <input type="submit" value="Submit">
+
   </form>
-
-  <section class="contact">
-  <p>Contact me on
-  email:p15203891@dmu.ac.uk
-  address:Dmu,Gateway street</p>
- 
-  </section>
-
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+   <section class="contact">
+ <i class="fa fa-envelope" aria-hidden="true"> Email: p15203891@dmu.ac.uk</i>
+ <br>
+<i class="fa fa-address-card" aria-hidden="true"> Address: Dmu,Gateway street</i>
+<br>
+<br>
+<i class="fa fa-location-arrow" aria-hidden="true">Location:</i>
 
 
+
+  </section> 
+  <div id="map">
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY-HERE&callback=initMap"></script>
+  </div>
+  
+  
 <footer>
-
-<div class="footer-social-icons">
-    <!-- <h4>Follow me on</h4> -->
+<p>site map</p>
+	<a class="active" href="index.html">Home</a>
+ <a href="education.html">Education</a>
+ <a href="project.html">Project</a>
+<a href="contact.html">Contact</a>
+<hr>
+ <div class="footer-social-icons">
+    
     <ul class="social-icons">
-        <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+    <p>Follow me on</p>     <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-
     </ul>
-</div>
-
+	</div>
+	<hr>
+ &#9400;Created by Rakhee Kanabar 
 </footer>
 </div>
+<script src="js/javascript.js"> </script> 
+<script src="js/googleapi.js"> </script> 
 </body>
 </html>

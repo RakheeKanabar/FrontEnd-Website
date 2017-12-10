@@ -72,13 +72,13 @@ footer {
     padding: auto;
     text-align: center;
 	position:relative;
-	height:100px;
+	height:200px;
 }
 .footer-social-icons {
-    width: 350px;
+    width: 250px;
     display:block;
     margin: 0 auto;
-	margin-left:35%;
+	margin-left:43%;
 }
 .social-icon {
     color: #fff;
@@ -132,6 +132,14 @@ ul.social-icons {
 .fa-linkedin:hover {
     background-color: #0073a4;
 }
+footer a{
+	color:black;
+	
+}
+footer a:hover{
+	color:white;
+	
+}
 
 /*this code is for index page*/
 
@@ -167,16 +175,12 @@ ul.social-icons {
 	color:white;
 
 }
-.football{
-	
-	width:10%;
-}
 .profileimg {
   width: 50%;
   height:500px;
   background-image: url("../img/profile.jpg");
   background-repeat:no-repeat;
-  background-size: 900px 400px;
+  background-size: 550px 500px;
   border: 2px solid #999;
   overflow: hidden;
   margin-left:25%;
@@ -194,7 +198,7 @@ ul.social-icons {
 figcaption {
   box-sizing: border-box;
   height: 4em;
-  line-height: 1.2em;
+  line-height: 1em;
   padding: .25em;
   transform: translateY(4em);
   background: #fff;
@@ -212,8 +216,38 @@ figcaption {
 iframe{
 	
 	margin-left:30%;
-	width:10%;
+	width:50%;
+	height:300px;
 }
+.slideshow {
+  margin: 2em auto 1em;
+  width: 500px; /* altering this breaks the centering??? */
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+  width: 400px;
+  animation: round 16s infinite;
+  opacity: 0;
+  margin-top:0%;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 12s; }
+img:nth-child(2) { animation-delay: 8s; }
+img:nth-child(3) { animation-delay: 4s; }
+
 
 /*aboutme page css code*/
 * {box-sizing: border-box}
@@ -287,13 +321,14 @@ height:20%;
 /*this css code is for contact page*/
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+
     resize: vertical;
 }
 
@@ -310,15 +345,20 @@ input[type=submit]:hover {
     background-color: #228B22;
 }
 .contact{
-	margin-left:50%;
+	margin-left:35%;
 	margin-top:0em;
 }
+#map {
+  height: 400px;
+  width: 60%;
+  margin-left:20%;
+}
 
-
+}
 
 /*this is the mobile responsive*/
 
-@media screen and (max-width:680px) {
+@media screen and (min-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;

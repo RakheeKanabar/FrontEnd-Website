@@ -2,21 +2,22 @@
 <html>
 <head>
 <title>Raks Blog</title>
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
 
-<img id="title" src="img/title.png" alt="logo"/>
+<a href="index.html"><img id="title" src="img\title.png"alt="logo"/></a>
 <div class="header">
 <ul class="topnav" id="myTopnav">
 
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="education.html">Education</a></li>
-  <li><a href="project.html">Project</a></li>
-  <li><a href="contact.html">Contact</a></li>
+  <li><a class="active" href="index.html"><i class="fa fa-home"></i>Home</a></li>
+  <li><a href="education.html"><i class="fa fa-file-code-o"></i>Education</a></li>
+  <li><a href="project.html"><i class="fa fa-pencil-square"></i>Project</a></li>
+  <li><a href="contact.html"><i class="fa fa-comments-o"></i>Contact</a></li>
   <li class="icon">
     <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
   </li>
@@ -26,7 +27,6 @@
 
 <section>
   <div class="profileimg">
-     <!-- <img class="profile" src="img/profile.jpg"alt="profile"/> -->
       <figcaption>
         A caption with more details about the image, in this case up to three lines but no more
       </figcaption>
@@ -35,11 +35,18 @@
 </section>
 <section>
   <div class="column1">
-  <h2>Hobbies </h2>
-  <p> My Hobbies are..
-    <img class="football" src="img/Football.jpg" alt="football"/>
+  <h1>Hobbies </h1>
+  <h2> My Hobbies are..</h2>
+	  <div class="slideshow">
+    <img src="img/Footballimage.png"alt="football" />
+    <img src="img/codingnew.png"alt="code" />
+    <img src="img/tv_techtalk_OFM.png"alt="tv" />
+ 
+  </div>
+  
   </div>
   </section>
+  
   <section>
   <hr>
   <div class="column">
@@ -60,20 +67,29 @@ We are immensely proud of our brilliant home city and our part in its great hist
 </section>
 <hr>
 <footer>
+<p>site map</p>
+	<a class="active" href="index.html">Home</a>
+ <a href="education.html">Education</a>
+ <a href="project.html">Project</a>
+<a href="contact.html">Contact</a>
+<hr>
 
-<div class="footer-social-icons">
- &#9400;Created by Rakhee Kanabar 
-    <!-- <h4 class="_14">Follow us on</h4> -->
+ <div class="footer-social-icons">
+    
     <ul class="social-icons">
-        <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+    <p>Follow me on</p>     <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-
     </ul>
-</div>
+	</div>
+	<hr>
+ &#9400;Created by Rakhee Kanabar 
+
+
+	
+
 
 </footer>
-</div>
 </div>
 <script src="js/javascript.js"> </script> 
 </body>
