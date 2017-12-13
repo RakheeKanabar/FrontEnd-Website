@@ -1,38 +1,40 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Raks Blog</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <meta charset="utf-8">
+  <title>basic responsive example</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
-<a href="index.html"><img id="title" src="img\title.png"alt="logo"/></a>
-<div class="header">
-<ul class="topnav" id="myTopnav">
+<header>
 
-  <li><a  href="index.html">Home</a></li>
-  <li><a class="visited" href="education.html">Education</a></li>
-  <li><a href="project.html">Project</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li>
-</ul>
-</div>
-<div id="main">
-<h1>Education</h1>
-  <div class="column">
+  <a href="index.html"><img id="logo" src="imgs\title.png" alt="logo"/></a>
+
+  <a id="menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+  <nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="#">Menu Item 3</a>
+    <a href="#">Menu Item 4</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <section>
   <h2>What I Study… </h2>
   <h3> COMPUTING BSC</h3>
  <p>This course allows you to develop technical and practical skills in a range of computing subjects including computer technology, database design, internet technology, programming, multimedia, interactive systems design and systems development. In the final year students select from a range of options and also complete a computing project.
   </p>
   <h2> The modules that I have and currently doing are:</h2>
   <br>
-    <section id="jsshowhide">
+</section>
+<section id="jsshowhide">
       <article>
         <span id="i01js"></span>
         <h3 id="q01js">First Year</h3>
@@ -80,13 +82,12 @@
 	</dl> 
       </article>
     </section>
-    <a href="http://www.dmu.ac.uk/study/courses/undergraduate-courses/computing-bsc/computing-bsc-degree.aspx">To find out more about computing</a>
-  </div>
-  
-  
-  <hr>
-  <div class="column">
-  <h2>Skills </h2>
+<br>
+<br>
+ 
+ <section class="section2">
+	<h2>Skills </h2>
+	  
   <h3> Here are some skills that I have gained within the last 2 years </h3>
 <p>HTML</p>
 <div class="container">
@@ -107,44 +108,29 @@
 <div class="container">
   <div class="skills aspx">50%</div>
 </div>
-<hr>
-<h2>Favourite thing</h2>
-<h3> here are the most code i enjoy learning about... </h3>
-
-<img class="images" src="img/html.png">
-<img class="images" src="img/mvc.jpg">
-<img  class="images" src="img/c.png">
-
-<p>To View some of my work <a href="project.html"> click here</a> or visit the project page.</p>
-
-
+ 
+  </section>
+  
+   <section class="section3">
+    <h2>DMU</h2>
+	   <iframe src="https://www.youtube.com/embed/k47BV2wpB0Y"  allowfullscreen></iframe>
+  <p>Life at Dmu
+A 21st-century university
+The £136 million reimagining of the campus at De Montfort University Leicester (DMU) has created the modern, inspiring environment students deserve and shows our confidence in what we do and what we are.
 
   </div>
+
+
+  </section>
   
   
  
-<footer>
-<p>site map</p>
-	<a class="active" href="index.html">Home</a>
- <a href="education.html">Education</a>
- <a href="project.html">Project</a>
-<a href="contact.html">Contact</a>
-<hr>
-
- <div class="footer-social-icons">
-    
-    <ul class="social-icons">
-    <p>Follow me on</p>     <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-    </ul>
-	</div>
-	<hr>
- &#9400;Created by Rakhee Kanabar 
-</footer>
 
 
-<script src="js/javascript.js"> </script> 
+ 
+</main>
+
+<script src="js/scripts.js"></script>
 <script src="js/headingradio.js"> </script> 
 </body>
 </html>

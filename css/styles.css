@@ -1,0 +1,206 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
+body {
+  margin:0;
+  padding:0;
+  background: #122;
+  color: #ffaa;
+  text-align: center;
+}
+header {
+  background: #ffc;
+  color: #444;
+}
+nav {
+  background: #aaa;
+  display: none;
+}
+nav a {
+  padding: 1em;
+  display: block;
+}
+#menu {
+  padding: 2em;
+  background: #fff;
+  display: block;
+}
+.show-menu {
+  display: block;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em;
+}
+main {
+ 
+}
+.bitmoji{
+width:auto;	
+}
+section {
+  background: #888;
+
+}
+.section2 {
+  width:50%;
+
+}  
+.section3{
+	
+	width:45%;
+	position:relative;
+}
+.slideshow{
+	max-width:500px;
+	margin-left:30%;
+	
+}
+.mySlides{
+	width:50%;
+	
+}
+.section3 iframe{
+	margin-left:10%;
+	width:30%;
+	height:200px;
+	position:relative;
+	
+}
+
+
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+#jsshowhide dl {
+  display: none;
+  
+}
+#jsshowhide h3 {
+  cursor: pointer;
+  display: inline;
+}
+#logo{
+	width:10%;
+	height:10%;
+	margin-top:10px;
+	margin-left:0%;
+	
+}
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 70%; background-color: #4CAF50;}
+.mvc {width: 60%; background-color: #2196F3;}
+.c{width: 65%; background-color: #f44336;}
+.aspx {width: 50%; background-color: #FF6600;}
+
+
+
+
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px) {
+  header {
+    background: #444;
+    color: #ccc;
+  }
+  nav a {
+    width: 44%;
+    display: inline-block;
+  }
+  nav a:hover {
+    background: #777;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  main {
+    width: 90%;
+    
+  }
+  section {
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
+    background: #444;
+    color: #999;
+	
+  }
+  section:hover {
+    background: #666;
+  }
+
+.slideshow{
+	max-width:500px;
+	margin-left:30%;
+	
+}
+.mySlides{
+	width:50%;
+	
+}
+.section3 iframe{
+	margin-left:10%;
+	width:30%;
+	height:200px;
+	position:relative;
+	
+}
+
+  
+}
+
+
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+  header {
+    background: #222;
+    color: #ccc;
+  }
+  nav {
+    display: block;
+  }
+  nav a {
+    line-height: 3em;
+    width: inherit;
+  }
+  #menu {
+    display: none;
+  }
+  main {
+    max-width: 90%;
+	margin:auto;
+  }
+  section {
+	  position:relative;
+	  float:left;
+    width: 100%;
+    margin: 1em 1% 1em 1%;
+    background: #222;
+    border-color: #666;
+    font-size: 1.5em;
+  }
+  
+
+
+
+  
+  
+  
+  
+}
+/* END SECOND BREAKPOINT */

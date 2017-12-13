@@ -1,96 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Raks Blog</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <meta charset="utf-8">
+  <title>Unclear</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
-<a href="index.html"><img id="title" src="img\title.png" alt="logo"/></a>
-<div class="header">
-<ul class="topnav" id="myTopnav">
+<header>
 
-  <li><a class="visited" href="index.html"><i class="fa fa-home"></i>Home</a></li>
-  <li><a href="education.html"><i class="fa fa-file-code-o"></i>Education</a></li>
-  <li><a href="project.html"><i class="fa fa-pencil-square"></i>Project</a></li>
-  <li><a href="contact.html"><i class="fa fa-comments-o"></i>Contact</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li>
-</ul>
-</div>
-<div id="main">
+  <a href="index.html"><img id="logo" src="imgs\title.png" alt="logo"/></a>
 
-<section>
-  <figure>
-      <figcaption>
-        A caption with more details about the image, in this case up to three lines but no more
-      </figcaption>
-    </figure>
-<hr>
-</section>
-<section>
-  <div class="column1">
-  <h1>Hobbies </h1>
-  <h2> My Hobbies are..</h2>
-	  <div class="slideshow">
-    <img src="img/Footballimage.png" alt="football" />
-    <img src="img/codingnew.png" alt="code" />
-    <img src="img/tv_techtalk_OFM.png" alt="tv" />
+  <a id="menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+  <nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="#">Menu Item 3</a>
+    <a href="#">Menu Item 4</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <section>
+    <h2>About Me</h2>
+<img class="bmoji" src="imgs/bmoji.png" alt="bitmoji">
+	<p class="aboutme" > Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+  </section>
+<br>
+<br>
  
-  </div>
-  
-  </div>
+ <section class="section2">
+    <h2>Hobbies</h2>
+
+	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+ <div class="slideshow">
+  <img class="mySlides" src="imgs/Footballimage.png" >
+  <img class="mySlides" src="imgs/codingnew.png" >
+  <img class="mySlides" src="imgs/tv_techtalk_OFM.png">
+</div>
+
   </section>
   
-  <section>
-  <hr>
-  <div class="column">
-  <h2>My University </h2>
-   <iframe src="https://www.youtube.com/embed/k47BV2wpB0Y"  allowfullscreen></iframe>
+   <section class="section3">
+    <h2>DMU</h2>
+	   <iframe src="https://www.youtube.com/embed/k47BV2wpB0Y"  allowfullscreen></iframe>
   <p>Life at Dmu
 A 21st-century university
 The £136 million reimagining of the campus at De Montfort University Leicester (DMU) has created the modern, inspiring environment students deserve and shows our confidence in what we do and what we are.
 
-That confidence is further strengthened by achieving the highest possible Gold standard in the 2017 Teaching Excellence Framework (TEF), putting DMU in the top third of universities. This is the only Government-run measure of teaching quality in higher education and the award underlines the outstanding learning and teaching on offer at DMU.  
-
-We were named the fifth best university for overall teaching excellence, and the best university in the country for helping students find highly skilled work or further study, in a league table produced by higher education experts Wonkhe based on TEF analysis. Some 96.7 per cent of DMU graduates from summer 2016 are in work or further study, according to the Destinations of Leavers from Higher Education 2015-16 report.
-
-We are immensely proud of our brilliant home city and our part in its great history, exciting transformation and future success. Diverse and multicultural, but with its own confident character, Leicester has been named one of the best UK cities in which to live and work.</p>
- 
   </div>
-</div>
-</section>
-<hr>
-<footer>
-<p>site map</p>
-	<a class="active" href="index.html">Home</a>
- <a href="education.html">Education</a>
- <a href="project.html">Project</a>
-<a href="contact.html">Contact</a>
-<hr>
-
- <div class="footer-social-icons">
-    
-    <ul class="social-icons">
-    <p>Follow me on</p>     <li><a href="https://en-gb.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-    </ul>
-	</div>
-	<hr>
- &#9400;Created by Rakhee Kanabar 
 
 
-	
+  </section>
+  
+  
+ 
 
 
-</footer>
-</div>
-<script src="js/javascript.js"> </script> 
+ 
+</main>
+
+<script src="js/scripts.js"></script>
 </body>
 </html>
