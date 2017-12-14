@@ -127,12 +127,12 @@ section {
   }
   main {
     width: 90%;
-    
+    margin: 0 auto;
   }
   section {
-    width: 44%;
-    margin: 2%;
-    display: inline-block;
+    width: 90%;
+    margin: 2% auto;
+    display: block;
     background: #444;
     color: #999;
 	
@@ -158,13 +158,18 @@ section {
 	
 }
 .section2 {
-  width:50%;
+  width:90%;
 
 }  
 .section3{
-	
-	width:45%;
-	position:relative;
+	width:90%;
+}
+.radiosection{
+	width:90%;
+}
+
+#jsshowhide h3 {
+  display: block;
 }
 
   
@@ -204,7 +209,20 @@ section {
     font-size: 1.5em;
   }
 
+	.section2 {
+	  width:50%;
 
+	}  
+	.section3{
+		width:45%;
+	}
+	.radiosection{
+		width:90%;
+	}
+
+	#jsshowhide h3 {
+	  display: inline-block;
+	}
 
 
   
