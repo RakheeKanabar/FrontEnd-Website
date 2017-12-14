@@ -47,12 +47,12 @@ section {
 
 }
 .section2 {
-  width:50%;
+  width:100%;
 
 }  
 .section3{
 	
-	width:45%;
+	width:100%;
 	position:relative;
 }
 .slideshow{
@@ -157,6 +157,15 @@ section {
 	position:relative;
 	
 }
+.section2 {
+  width:50%;
+
+}  
+.section3{
+	
+	width:45%;
+	position:relative;
+}
 
   
 }
@@ -194,7 +203,7 @@ section {
     border-color: #666;
     font-size: 1.5em;
   }
-  
+
 
 
 
