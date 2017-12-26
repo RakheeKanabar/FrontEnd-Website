@@ -116,6 +116,125 @@ section {
   height: 400px;
 
 }
+.project{
+	 width:100%;
+}
+.pdfDoc ul{
+
+list-style-type: none;
+
+
+}
+.pdfDoc ul li{
+
+float:left;
+margin:1%;
+}
+.pdfDoc ul li a{
+
+display:inline-block;
+text-align: center;
+text-decoration: none;
+
+}
+.pdfDoc img{
+
+width:50%;
+height:20%;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
 
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -136,12 +255,13 @@ section {
   }
   main {
     width: 90%;
+	margin: 0 auto;
     
   }
   section {
-    width: 44%;
-    margin: 2%;
-    display: inline-block;
+     width: 90%;
+    margin: 2% auto;
+    display: block;
     background: #444;
     color: #999;
 	
@@ -167,20 +287,39 @@ section {
 	
 }
 .section2 {
-  width:50%;
+  width:90%;
 
 }  
 .section3{
-	
-	width:45%;
-	position:relative;
+	width:90%;
+}
+.radiosection{
+	width:90%;
+}
+
+#jsshowhide h3 {
+  display: block;
 }
 .images{
 	width:20%;
 }
 .sectioncontact{
 	 width:100%;
-	 margin:5%;
+	 
+}
+.pdfDoc img{
+
+width:10%;
+height:20%;
+}
+.project{
+	  width:100%;
+	 
+	
+}
+.searchform{
+	width:100%;
+	
 }
 
 
@@ -220,6 +359,20 @@ section {
     border-color: #666;
     font-size: 1.5em;
   }
+  	.section2 {
+	  width:50%;
+
+	}  
+	.section3{
+		width:45%;
+	}
+	.radiosection{
+		width:90%;
+	}
+
+	#jsshowhide h3 {
+	  display: inline-block;
+	}
 
   .images{
 	width:30%;
@@ -237,6 +390,16 @@ section {
     margin: 1em 1% 1em 1%;
 	
 }
+.project{
+	  width:90%;
+	 
+}
+.searchform{
+	width:90%;
+	
+}
+
+
 
   
   
