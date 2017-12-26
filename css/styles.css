@@ -71,6 +71,9 @@ section {
 	position:relative;
 	
 }
+.sectioncontact{
+	 width:100%;
+}
 
 
 .show {
@@ -106,7 +109,13 @@ section {
 .c{width: 65%; background-color: #f44336;}
 .aspx {width: 50%; background-color: #FF6600;}
 
+.images{
+	width:10%;
+}
+#map {
+  height: 400px;
 
+}
 
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -127,12 +136,12 @@ section {
   }
   main {
     width: 90%;
-    margin: 0 auto;
+    
   }
   section {
-    width: 90%;
-    margin: 2% auto;
-    display: block;
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
     background: #444;
     color: #999;
 	
@@ -158,19 +167,22 @@ section {
 	
 }
 .section2 {
-  width:90%;
+  width:50%;
 
 }  
 .section3{
-	width:90%;
+	
+	width:45%;
+	position:relative;
 }
-.radiosection{
-	width:90%;
+.images{
+	width:20%;
+}
+.sectioncontact{
+	 width:100%;
+	 margin:5%;
 }
 
-#jsshowhide h3 {
-  display: block;
-}
 
   
 }
@@ -209,21 +221,22 @@ section {
     font-size: 1.5em;
   }
 
-	.section2 {
-	  width:50%;
+  .images{
+	width:30%;
+}
+#map {
+  height: 400px;
+  width: 60%;
+  margin-left:20%;
+}
 
-	}  
-	.section3{
-		width:45%;
-	}
-	.radiosection{
-		width:90%;
-	}
-
-	#jsshowhide h3 {
-	  display: inline-block;
-	}
-
+.sectioncontact{
+	position:relative;
+	float:left;
+    width: 100%;
+    margin: 1em 1% 1em 1%;
+	
+}
 
   
   
