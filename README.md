@@ -8,17 +8,16 @@ Rakhee Kanabar
 
 #### 1. Initial Designs (Wireframes)
 ##### Movile View
-<img src="https://user-images.githubusercontent.com/23102407/34414344-b8a7e9d2-ebe0-11e7-88bb-ff3ac14fab35.jpg" width="350px" alt="Mobile View" />
+<img src="" width="350px" alt="Mobile View" />
 
 ##### Tablet View
-<img src="https://user-images.githubusercontent.com/23102407/34414350-c9aa0c2e-ebe0-11e7-8faf-f542b667664e.jpg" width="550px" alt="Tablet View" />
+<img src="" width="550px" alt="Tablet View" />
 
 ##### Desktop View
-<img src="https://user-images.githubusercontent.com/23102407/34414362-db5aa2a8-ebe0-11e7-93fa-4d19844a880a.jpg" width="600px" alt="Desktop View" />
+<img src="" width="600px" alt="Desktop View" />
 
 #### 2. User testing
-I asked one of my friends to go through the website to check it it is usaable and his feedback was postive and 
-advised me to change some things such as adding some form of effect on the Skills section as he found it confusing.
+I asked a friend to test the usability of the website
 
 <img src="https://user-images.githubusercontent.com/23102407/34414536-ba7e6956-ebe1-11e7-8d1e-0fe808dd7999.jpg" alt="user testing" width="500px" />
 
