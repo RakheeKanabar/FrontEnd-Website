@@ -11,8 +11,8 @@
   let demoJSON = document.getElementById("demo");
   let mVc = document.getElementById("mvc");
   let webSite = document.getElementById("website");
-  let Code = document.getElementById("code");
-  let Game = document.getElementById("game");
+  let Csharp = document.getElementById("csharp");
+  let Aspx = document.getElementById("aspx.net");
 
   // constructs the base for the request url
   let baseURL = "https://en.wikipedia.org/w/api.php? \
@@ -82,19 +82,19 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
 	  queryBox.value = webSite.innerHTML;
 	  searchWiki();
   }
-    Code.addEventListener("click", searchCode3, false);
+    Csharp.addEventListener("click", searchCode3, false);
   
   function searchCode3(){
 	  
-	  queryBox.value = Code.innerHTML;
+	  queryBox.value = Csharp.innerHTML;
 	  searchWiki();
   }
      
-	 Game.addEventListener("click", searchCode3, false);
+	 Aspx.addEventListener("click", searchCode4, false);
   
   function searchCode4(){
 	  
-	  queryBox.value = Game.innerHTML;
+	  queryBox.value = Aspx.innerHTML;
 	  searchWiki();
   }
   
