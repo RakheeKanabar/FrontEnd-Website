@@ -61,6 +61,7 @@ section {
 	margin-top:10px;
 	margin-left:0%;
 }
+
 .footer-social-icons {
     width: 350px;
     display:block;
@@ -182,10 +183,6 @@ width:70%;
 
 } 
 
-
-a .clickhere{
-	font-style:underline;
-}
 /*end*/
 
 /*project page*/
@@ -254,8 +251,6 @@ height:20%;
     color: black;
 	
   }
-
-
 
 .section2 {
   width:90%;
@@ -338,6 +333,7 @@ height:150px;
   nav a {
     line-height: 3em;
     width: inherit;
+	  font-size:1em;
   }
   #menu {
     display: none;
@@ -363,6 +359,7 @@ height:150px;
 		width:45%;
 		float:left;
 	}
+
 	/*end*/
 
 
@@ -380,6 +377,7 @@ height:150px;
 /*project page*/
 .project{
 	  width:90%; 
+	  margin:5%;
 }
 
 .searchform{
@@ -390,7 +388,6 @@ height:150px;
 
 width:9%;
 height:100px;
-position:inline-block;
 }
 /*end*/
 
@@ -407,7 +404,6 @@ position:inline-block;
     width: 100%;
     margin: 1em 1% 1em 1%;
 }
-
  /*end*/ 
  
 
