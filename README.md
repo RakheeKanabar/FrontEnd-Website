@@ -99,7 +99,8 @@ https://github.com/CTEC3905/js-show-hide
 https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
  * social icons
 https://codepen.io/Deadlymuffin/pen/hGiqo/
-
+* youtube
+https://www.youtube.com/watch?time_continue=1&v=k47BV2wpB0Y
  
 
  
