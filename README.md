@@ -27,9 +27,9 @@ The issues I had on the recent website, was that on the home page mobile respons
 <img src="https://user-images.githubusercontent.com/25173663/34439887-223046a6-eca9-11e7-9446-cbca01d4de13.jpeg" width="600px" alt="Desktop View" />
 
 #### 2. User testing
-I asked a friend to test the usability of the website
+I asked a friend to test the usability of the website. 
 
-<img src="https://user-images.githubusercontent.com/23102407/34414536-ba7e6956-ebe1-11e7-8d1e-0fe808dd7999.jpg" alt="user testing" width="500px" />
+<img src="https://user-images.githubusercontent.com/25173663/34440051-6e3c16b4-ecaa-11e7-99ee-e10c94e97264.jpeg" alt="user testing" width="500px" />
 
 
 #### 3. Intelligent application of Information Architecture and PARC
@@ -90,11 +90,21 @@ however I have a error my education page, I showed the error to faina, she had a
 #### 10. References
 
  * animations and transitions 
- https://www.w3schools.com/css/css3_animations.asp
-
-
+ https://www.w3schools.com/howto/howto_css_shake_image.asp
+  * apis 
+ https://github.com/CTEC3905/08-lab-json-ajax
+ * radio buttons 
+https://github.com/CTEC3905/js-show-hide
+ * sildeshow
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
+ * social icons
+https://codepen.io/Deadlymuffin/pen/hGiqo/
+* youtube
+https://www.youtube.com/watch?time_continue=1&v=k47BV2wpB0Y
  
+ *Skill bar
  
+ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_skill_bar
 
  
  
