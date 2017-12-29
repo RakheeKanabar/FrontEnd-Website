@@ -102,6 +102,9 @@ https://codepen.io/Deadlymuffin/pen/hGiqo/
 * youtube
 https://www.youtube.com/watch?time_continue=1&v=k47BV2wpB0Y
  
+ *Skill bar
+ 
+ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_skill_bar
 
  
  
