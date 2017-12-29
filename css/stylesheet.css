@@ -154,8 +154,9 @@ width:70%;
 .hide {
   display: none !important;
 }
-#jsshowhide dl {
+#jsshowhide ul {
   display: none;
+  list-style:none;
   
 }
 #jsshowhide h3 {
